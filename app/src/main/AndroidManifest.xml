@@ -14,10 +14,12 @@
             android:name=".Accueil"
             android:clipChildren="false"
             android:clipToPadding="false" />
+        <activity android:name=".McvActivity" android:parentActivityName=".Accueil"/>
+        <activity android:name=".Agronomie" android:parentActivityName=".Accueil"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
