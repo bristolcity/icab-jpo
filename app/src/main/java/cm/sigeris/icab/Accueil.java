@@ -28,7 +28,7 @@ public class Accueil extends AppCompatActivity {
         ivan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Intent intent = new Intent(Accueil.this,McvActivity.class);
+               Intent intent = new Intent(Accueil.this,Agronomie.class);
                startActivity(intent);
             }
         });
