@@ -9,8 +9,10 @@
         android:roundIcon="@drawable/icab"
         android:supportsRtl="true"
         android:theme="@style/Theme.Icabjpo">
-        <activity android:name=".Accueil"/>
-        <activity android:name=".MainActivity" android:exported="true">
+        <activity android:name=".Accueil"
+            android:clipChildren="false"
+            android:clipToPadding="false"/>
+        <activity android:name=".MainActivity" android:exported="true" android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
