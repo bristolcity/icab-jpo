@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Accueil">
 
-
     <LinearLayout
         android:id="@+id/linear1"
         android:background="#FFFFFF"
@@ -75,6 +74,4 @@
             android:text="Stephane" />
 
     </LinearLayout>
-
-
 </RelativeLayout>
