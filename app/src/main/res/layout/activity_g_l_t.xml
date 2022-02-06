@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".GLT">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="40dp"
+        android:layout_margin="10dp"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tofglt" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="Gestion logistique et Transport" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="130dp"
+
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/glt1" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="Bienvenue" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/agro1"
+                android:layout_marginTop="10dp"
+                android:layout_height="300dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_gravity="left|top"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.9"
+                        android:textStyle="bold|italic"
+                        android:text="Presentation" />
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="0.1"
+                        android:layout_marginRight="20dp"
+                        android:layout_gravity="right|top"
+                        app:srcCompat="@drawable/glt"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="132dp"
+                        android:layout_gravity="left|center"
+                        android:layout_marginTop="20dp"
+                        android:text="Les métiers du transport et de la logistique permettent de travailler dans des domaines variés : l’acheminement de marchandises, le déménagement, le transport de voyageurs, le tourisme…La fonction logistique, quant à elle, ne se limite pas au secteur des transports : elle est désormais indispensable dans tous les domaines d’activité qui nécessitent une organisation sans faille de la livraison et de l’approvisionnement en biens ou produits de consommation. "
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/agro2"
+                android:layout_marginTop="10dp"
+                android:layout_height="300dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_gravity="left|top"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.9"
+                        android:textStyle="bold|italic"
+                        android:text="Profil" />
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="0.1"
+                        android:layout_marginRight="20dp"
+                        android:layout_gravity="right|top"
+                        app:srcCompat="@drawable/gltprofil"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="132dp"
+                        android:layout_gravity="left|center"
+                        android:layout_marginTop="20dp"
+                        android:text="BAC REQUIS: Pour l’entrée en 1ère année Gestion logistique et transport : Tous les BAC enseignement général, STT, GCE....L’entrée en licence se fait sur test L’entrée en master se fait sur étude de dossier Pour la filière Commerce et gestion....MATIÈRES DE COMPOSITION POUR L’ENTRÉE EN 1ère ANNÉE: Mathématiques, Français et culture générale"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/agro3"
+                android:layout_marginTop="10dp"
+                android:layout_height="300dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_gravity="left|top"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.9"
+                        android:textStyle="bold|italic"
+                        android:text="Debouche" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="0.1"
+                        android:layout_marginRight="20dp"
+                        android:layout_gravity="right|top"
+                        app:srcCompat="@drawable/general"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="132dp"
+                        android:layout_gravity="left|center"
+                        android:layout_marginTop="20dp"
+                        android:text="Acheteur,Responsable logistique et transport,Responsable analyse et optimisation des coûts,Responsable qualité,Logisticien,Technicien acheteur industriel,Responsable achats et logistique,Gestionnaire de réseaux de flux."
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

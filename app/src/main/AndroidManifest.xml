@@ -39,6 +39,18 @@
         <activity
             android:name=".McvActivity"
             android:label="Marketing Commerce et Vente"
+        <activity android:name=".GLT" android:label="GLT" android:parentActivityName=".Accueil"></activity>
+        <activity android:name=".IIA" android:label="IIA" android:parentActivityName=".Accueil"/>
+        <activity
+            android:name=".Banque"
+            android:label="Banque"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Accueil"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+        <activity
+            android:name=".Agronomie"
             android:parentActivityName=".Accueil" />
         <activity
             android:name=".MainActivity"

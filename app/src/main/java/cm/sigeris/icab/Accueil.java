@@ -20,17 +20,18 @@ import android.widget.TextView;
 
 public class Accueil extends AppCompatActivity {
 <<<<<<< HEAD
+<<<<<<< HEAD
     private CardView genielogiciel,mava,logistique,iia,geniecivil,marketing,banque,comptabilite,agronomie;
     private TextView textView4;
     private LinearLayout etudiant,cardTexte;
     int statut = 0;
     private static int splashTimeOut = 6000;
     Handler handler = new Handler();
+    private Button agro,banque,IIA,GLT;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
-
         textView4 = findViewById(R.id.textView4);
         etudiant = findViewById(R.id.etudiant);
         cardTexte = findViewById(R.id.cardTexte);
@@ -170,6 +171,36 @@ public class Accueil extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 }
+        agro = findViewById(R.id.agro);
+        banque= findViewById(R.id.banque);
+        GLT= findViewById(R.id.GLT);
+        IIA= findViewById(R.id.IIA);
+        agro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               Intent intent = new Intent(Accueil.this,Agronomie.class);
+               startActivity(intent);
+            }
+        });
+        banque.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(Accueil.this,Banque.class);
+                startActivity(intent);
+            }
+        });
+        GLT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(Accueil.this,GLT.class);
+                startActivity(intent);
+            }
+        });
+        IIA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(Accueil.this,IIA.class);
+                startActivity(intent);
             }
         }).start();
     }
