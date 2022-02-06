@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".Agronomie">
+    tools:context=".GLT">
 
 
     <androidx.cardview.widget.CardView
@@ -25,7 +25,7 @@
                 android:layout_width="90dp"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/agroicab" />
+                app:srcCompat="@drawable/tofglt" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -33,9 +33,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textStyle="bold"
-                android:textSize="40dp"
+                android:textSize="20dp"
                 android:layout_gravity="center"
-                android:text="Agronomie" />
+                android:text="Gestion logistique et Transport" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -57,10 +57,10 @@
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    android:layout_width="400dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
                     android:scaleType="centerCrop"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/agri" />
+                    app:srcCompat="@drawable/glt1" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -106,7 +106,7 @@
                         android:layout_weight="0.1"
                         android:layout_marginRight="20dp"
                         android:layout_gravity="right|top"
-                        app:srcCompat="@drawable/agroicab"/>
+                        app:srcCompat="@drawable/glt"/>
                 </LinearLayout>
 
 
@@ -121,7 +121,7 @@
                         android:layout_height="132dp"
                         android:layout_gravity="left|center"
                         android:layout_marginTop="20dp"
-                        android:text="Une filière agricole comprend une chaîne d'acteurs (producteurs, transformateurs, distributeurs) engagés autour d'une même matière première agricole et ayant un projet commun de développement à moyen ou à long terme.Les interdépendances entre ces acteurs peuvent être de natures financières, économiques, réglementaires, techniques, sociales et environnementales  "
+                        android:text="Les métiers du transport et de la logistique permettent de travailler dans des domaines variés : l’acheminement de marchandises, le déménagement, le transport de voyageurs, le tourisme…La fonction logistique, quant à elle, ne se limite pas au secteur des transports : elle est désormais indispensable dans tous les domaines d’activité qui nécessitent une organisation sans faille de la livraison et de l’approvisionnement en biens ou produits de consommation. "
                         android:textAlignment="center" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -160,7 +160,7 @@
                         android:layout_weight="0.1"
                         android:layout_marginRight="20dp"
                         android:layout_gravity="right|top"
-                        app:srcCompat="@drawable/agrono"/>
+                        app:srcCompat="@drawable/gltprofil"/>
                 </LinearLayout>
 
 
@@ -175,7 +175,7 @@
                         android:layout_height="132dp"
                         android:layout_gravity="left|center"
                         android:layout_marginTop="20dp"
-                        android:text=" Pour l’entrée en 1ère année Agronomie : Tous les BAC enseignement général et GCE....MATIÈRES DE COMPOSITION POUR L’ENTRÉE EN 1ère ANNÉE: Mathématiques, Français et culture générale"
+                        android:text="BAC REQUIS: Pour l’entrée en 1ère année Gestion logistique et transport : Tous les BAC enseignement général, STT, GCE....L’entrée en licence se fait sur test L’entrée en master se fait sur étude de dossier Pour la filière Commerce et gestion....MATIÈRES DE COMPOSITION POUR L’ENTRÉE EN 1ère ANNÉE: Mathématiques, Français et culture générale"
                         android:textAlignment="center" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -214,7 +214,7 @@
                         android:layout_weight="0.1"
                         android:layout_marginRight="20dp"
                         android:layout_gravity="right|top"
-                        app:srcCompat="@drawable/agro"/>
+                        app:srcCompat="@drawable/general"/>
                 </LinearLayout>
 
 
@@ -229,7 +229,7 @@
                         android:layout_height="132dp"
                         android:layout_gravity="left|center"
                         android:layout_marginTop="20dp"
-                        android:text="Agriculteur,Caviste,Conducteur de machines agricoles,Éleveur,Éleveur animalier,Horticulteur,Ingénieur,Manager "
+                        android:text="Acheteur,Responsable logistique et transport,Responsable analyse et optimisation des coûts,Responsable qualité,Logisticien,Technicien acheteur industriel,Responsable achats et logistique,Gestionnaire de réseaux de flux."
                         android:textAlignment="center" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
