@@ -8,7 +8,7 @@
         android:label="icab-jpo"
         android:roundIcon="@drawable/icab"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Icabjpo">
+        android:theme="@style/Theme.acceuil">
         <activity android:name=".Accueil"
             android:clipChildren="false"
             android:clipToPadding="false"/>

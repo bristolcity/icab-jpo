@@ -111,6 +111,7 @@ public class Accueil extends AppCompatActivity {
 
         //end ligne a decommentes
 
+
         new Thread(new Runnable() {
             @Override
             public void run() {
