@@ -1,9 +1,430 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GcActivity">
+    android:orientation="vertical"
+    tools:context=".McvActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/inggc" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Ingénieur Génie Civil" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="456dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/gc" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:gravity="center"
+                    android:text="Bienvenue"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/blackcard"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|top"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="0.9"
+                        android:text="Présentation de la filière"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="right|top"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.1"
+                        app:srcCompat="@drawable/prescge" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text=" Cette spécialité a pour mission de former des ingénieurs dans le domaine du bâtiment, des travaux publics. De par sa formation généraliste et transdisciplinaire, l’ingénieur issu de cette spécialité, possède une base scientifique large et dispose de véritables outils de conception performants et polyvalents, ce qui lui confère toutes les composantes d’un cadre supérieur " />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/jaunecard"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|top"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="0.9"
+                        android:text="Profil d'études"
+                        android:textColor="#3C3C3C"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="right|top"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.1"
+                        app:srcCompat="@drawable/prescge" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3C3C3C"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text="Baccalauréat Scientifique, technique et GCE A/L" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#17D31F"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text="recommandé" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:layout_marginTop="60dp"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3C3C3C"
+                        android:layout_marginTop="60dp"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text="Baccalauréat Littéraire et Commerciale" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#E91E63"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="85dp"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text="accepté mais beaucoup d'éffort" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bleucard"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|top"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.9"
+                        android:text="Les débouchés"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="right|top"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.1"
+                        app:srcCompat="@drawable/prescge" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text="Chef de service ouvrages d’art et bâtiments" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text="Géotechnicien" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:layout_marginTop="50dp"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="50dp"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text="Ingénieur en Génie Civil" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:layout_marginTop="75dp"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="75dp"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text="Assistant chef projet" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:layout_marginTop="100dp"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="100dp"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center"
+                        android:text="Responsable des équipements" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

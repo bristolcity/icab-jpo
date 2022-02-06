@@ -10,20 +10,20 @@ import android.view.View;
 import android.widget.Button;
 
 public class Accueil extends AppCompatActivity {
-    //private Button ivan;
+    private Button ivan;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
-        //ivan = findViewById(R.id.ivan);
+        ivan = findViewById(R.id.ivan);
 
-        /*ivan.setOnClickListener(new View.OnClickListener() {
+        ivan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Accueil.this,McvActivity.class);
+                Intent intent = new Intent(Accueil.this,GcActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
 
     }
     @Override
