@@ -5,15 +5,15 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/icab"
-        android:label="@string/app_name"
+        android:label="icab-jpo"
         android:roundIcon="@drawable/icab"
         android:supportsRtl="true"
         android:theme="@style/Theme.Icabjpo">
         <activity android:name=".Apropos"></activity>
-        <activity
-            android:name=".Accueil"
+        <activity android:name=".Accueil"
             android:clipChildren="false"
-            android:clipToPadding="false" />
+            android:clipToPadding="false"
+            android:theme="@style/Theme.acceuil" />
         <activity
             android:name=".McvActivity"
             android:parentActivityName=".Accueil" />
