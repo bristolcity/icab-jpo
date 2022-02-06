@@ -50,43 +50,5 @@
         </RelativeLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_marginTop="12dp"
-        android:layout_below="@+id/linear1"
-        android:layout_width="match_parent"
-        android:weightSum="1"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/agro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:layout_weight="0.5"
-            android:text="Agronomie" />
-
-        <Button
-            android:id="@+id/banque"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="banque" />
-
-        <Button
-            android:id="@+id/GLT"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="GLT" />
-
-        <Button
-            android:id="@+id/IIA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="IIA" />
-
-
-    </LinearLayout>
 </RelativeLayout>
