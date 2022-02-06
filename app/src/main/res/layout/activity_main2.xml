@@ -32,7 +32,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Chef de Produit" />
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Marketing Commerce et vente" />
 
 
         </LinearLayout>

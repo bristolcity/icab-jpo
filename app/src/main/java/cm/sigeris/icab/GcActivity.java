@@ -2,10 +2,13 @@ package cm.sigeris.icab;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class GcActivity extends AppCompatActivity {
 
@@ -18,10 +21,13 @@ public class GcActivity extends AppCompatActivity {
 
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
+
 }

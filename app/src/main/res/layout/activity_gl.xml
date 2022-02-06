@@ -32,7 +32,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Developpeur Mobile" />
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Génie Logiciel" />
 
 
         </LinearLayout>
@@ -292,7 +294,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/devmobile" />
+                        app:srcCompat="@drawable/adminres" />
 
 
                 </LinearLayout>
