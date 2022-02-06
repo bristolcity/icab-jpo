@@ -19,6 +19,26 @@
             android:parentActivityName=".Accueil" />
         <activity
             android:name=".Agronomie"
+        <activity android:name=".GcActivity" android:label="Génie Civil" android:parentActivityName=".Accueil"></activity>
+        <activity
+            android:name=".GlActivity"
+            android:label="Génie Logiciel"
+            android:parentActivityName=".Accueil" />
+        <activity
+            android:name=".CgeActivity"
+            android:label="Comptabilité et Gestion"
+            android:parentActivityName=".Accueil" />
+        <activity
+            android:name=".MavaActivity"
+            android:label="Maintenance Après Vente Automobile"
+            android:parentActivityName=".Accueil" />
+        <activity
+            android:name=".Accueil"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+        <activity
+            android:name=".McvActivity"
+            android:label="Marketing Commerce et Vente"
             android:parentActivityName=".Accueil" />
         <activity
             android:name=".MainActivity"

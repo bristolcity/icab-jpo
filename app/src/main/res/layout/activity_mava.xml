@@ -24,7 +24,7 @@
                 android:layout_width="90dp"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/chefproduit" />
+                app:srcCompat="@drawable/chefprojauto" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -34,7 +34,7 @@
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:text="Marketing Commerce et vente" />
+                android:text="Maintenance Automobile Après Vente" />
 
 
         </LinearLayout>
@@ -62,7 +62,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/mcv" />
+                    app:srcCompat="@drawable/mava" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -109,7 +109,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="20dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/adminvente" />
+                        app:srcCompat="@drawable/conseitechni" />
 
 
                 </LinearLayout>
@@ -135,7 +135,7 @@
                         android:textColor="@color/white"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text=" Cette spécialité vise à répondre à un besoin exprimé par les entreprises : s‟entourer des commerciaux outillés, parfaitement imprégnés de la logique marketing, sensibilisés sur les besoins changeants du consommateur et orientés vers le développement des ventes dans un environnement caractérisé par la concurrence.  " />
+                        android:text=" Cette spécialité a pour objectif de former les techniciens supérieurs aux activités techniques, administratives et de communication qui interviennent après la vente d’une automobile. Ces activités peuvent porter sur le suivi et l’entretien régulier de l’automobile, ou sur sa prise en charge à la suite d’un sinistre.  " />
                 </LinearLayout>
 
 
@@ -170,11 +170,11 @@
                     <ImageView
                         android:id="@+id/imageView7"
                         android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/mcv2" />
+                        app:srcCompat="@drawable/recepatelier" />
 
 
                 </LinearLayout>
@@ -215,7 +215,7 @@
                         android:layout_marginTop="25dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="accepté" />
+                        android:text="recommandé" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -251,12 +251,12 @@
                         android:id="@+id/textView13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#17D31F"
+                        android:textColor="#E91E63"
                         android:layout_marginLeft="25dp"
                         android:layout_marginTop="85dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="recommandé" />
+                        android:text="accepté mais beaucoup d'éffort" />
                 </LinearLayout>
 
 
@@ -294,7 +294,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/ingtechnicocomm" />
+                        app:srcCompat="@drawable/moteur2" />
 
 
                 </LinearLayout>
@@ -319,7 +319,7 @@
                         android:textColor="@color/white"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Responsable  des ventes" />
+                        android:text="Technicien diagnostic" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -344,7 +344,7 @@
                         android:textColor="@color/white"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Chef de produit" />
+                        android:text="Chef projet automobile" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -369,7 +369,7 @@
                         android:layout_marginTop="50dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Attaché Commercial" />
+                        android:text="Technicien automobile " />
                 </LinearLayout>
 
                 <LinearLayout
@@ -394,7 +394,7 @@
                         android:layout_marginTop="75dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Administrateur de ventes" />
+                        android:text="Responsable du service après-vente" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -419,11 +419,10 @@
                         android:layout_marginTop="100dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Ingénieur technico commercial" />
+                        android:text="Conseiller technique automobile" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
 
         </LinearLayout>
 

@@ -24,7 +24,7 @@
                 android:layout_width="90dp"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/chefproduit" />
+                app:srcCompat="@drawable/devmobile" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -34,7 +34,7 @@
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:text="Marketing Commerce et vente" />
+                android:text="Génie Logiciel" />
 
 
         </LinearLayout>
@@ -59,10 +59,10 @@
 
                 <ImageView
                     android:id="@+id/imageView6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/mcv" />
+                    app:srcCompat="@drawable/gl" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -109,7 +109,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="20dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/adminvente" />
+                        app:srcCompat="@drawable/adminbd" />
 
 
                 </LinearLayout>
@@ -135,7 +135,7 @@
                         android:textColor="@color/white"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text=" Cette spécialité vise à répondre à un besoin exprimé par les entreprises : s‟entourer des commerciaux outillés, parfaitement imprégnés de la logique marketing, sensibilisés sur les besoins changeants du consommateur et orientés vers le développement des ventes dans un environnement caractérisé par la concurrence.  " />
+                        android:text=" Cette spécialité vise à former des spécialistes capables de développer des applications informatiques dans divers domaines, en faisant appel à leurs capacités d'étude du besoin, d'analyse (Merise, UML...) et de codage." />
                 </LinearLayout>
 
 
@@ -174,7 +174,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/mcv2" />
+                        app:srcCompat="@drawable/gens" />
 
 
                 </LinearLayout>
@@ -199,7 +199,7 @@
                         android:textColor="#3C3C3C"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Baccalauréat Scientifique, technique et GCE A/L" />
+                        android:text="Baccalauréat Scientifique et GCE A/L" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -215,7 +215,7 @@
                         android:layout_marginTop="25dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="accepté" />
+                        android:text="recommandé" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -251,12 +251,12 @@
                         android:id="@+id/textView13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#17D31F"
+                        android:textColor="#E91E63"
                         android:layout_marginLeft="25dp"
                         android:layout_marginTop="85dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="recommandé" />
+                        android:text="accepté mais beaucoup d'éffort" />
                 </LinearLayout>
 
 
@@ -294,7 +294,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/ingtechnicocomm" />
+                        app:srcCompat="@drawable/adminres" />
 
 
                 </LinearLayout>
@@ -319,7 +319,7 @@
                         android:textColor="@color/white"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Responsable  des ventes" />
+                        android:text="Chef de service ouvrages d’art et bâtiments" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -344,7 +344,7 @@
                         android:textColor="@color/white"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Chef de produit" />
+                        android:text="Administrateur de bases de données" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -369,7 +369,7 @@
                         android:layout_marginTop="50dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Attaché Commercial" />
+                        android:text="Analyste programmeur" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -394,7 +394,7 @@
                         android:layout_marginTop="75dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Administrateur de ventes" />
+                        android:text="Concepteur developpeur web/mobile" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -419,7 +419,7 @@
                         android:layout_marginTop="100dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Ingénieur technico commercial" />
+                        android:text="Administrateur réseaux et systèmes" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>

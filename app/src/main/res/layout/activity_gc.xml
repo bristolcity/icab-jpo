@@ -24,17 +24,17 @@
                 android:layout_width="90dp"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/chefproduit" />
+                app:srcCompat="@drawable/chefservouvrartsetbat" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/metier"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:text="Marketing Commerce et vente" />
+                android:text="Génie Civil" />
 
 
         </LinearLayout>
@@ -43,37 +43,37 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="456dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                app:cardCornerRadius="10dp"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
 
 
                 <ImageView
                     android:id="@+id/imageView6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/mcv" />
+                    app:srcCompat="@drawable/gc" />
 
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:layout_gravity="bottom|center"
-                    android:textSize="40dp"
+                    android:gravity="center"
+                    android:text="Bienvenue"
                     android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:text="Bienvenue" />
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -109,7 +109,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="20dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/adminvente" />
+                        app:srcCompat="@drawable/beton" />
 
 
                 </LinearLayout>
@@ -135,7 +135,7 @@
                         android:textColor="@color/white"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text=" Cette spécialité vise à répondre à un besoin exprimé par les entreprises : s‟entourer des commerciaux outillés, parfaitement imprégnés de la logique marketing, sensibilisés sur les besoins changeants du consommateur et orientés vers le développement des ventes dans un environnement caractérisé par la concurrence.  " />
+                        android:text=" Cette spécialité a pour mission de former des ingénieurs dans le domaine du bâtiment, des travaux publics. De par sa formation généraliste et transdisciplinaire, l’ingénieur issu de cette spécialité, possède une base scientifique large et dispose de véritables outils de conception performants et polyvalents, ce qui lui confère toutes les composantes d’un cadre supérieur " />
                 </LinearLayout>
 
 
@@ -174,7 +174,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/mcv2" />
+                        app:srcCompat="@drawable/geotechnicien" />
 
 
                 </LinearLayout>
@@ -215,7 +215,7 @@
                         android:layout_marginTop="25dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="accepté" />
+                        android:text="recommandé" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -251,12 +251,12 @@
                         android:id="@+id/textView13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#17D31F"
+                        android:textColor="#E91E63"
                         android:layout_marginLeft="25dp"
                         android:layout_marginTop="85dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="recommandé" />
+                        android:text="accepté mais beaucoup d'éffort" />
                 </LinearLayout>
 
 
@@ -294,7 +294,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/ingtechnicocomm" />
+                        app:srcCompat="@drawable/inggc" />
 
 
                 </LinearLayout>
@@ -319,7 +319,7 @@
                         android:textColor="@color/white"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Responsable  des ventes" />
+                        android:text="Chef de service ouvrages d’art et bâtiments" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -344,7 +344,7 @@
                         android:textColor="@color/white"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Chef de produit" />
+                        android:text="Géotechnicien" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -369,7 +369,7 @@
                         android:layout_marginTop="50dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Attaché Commercial" />
+                        android:text="Ingénieur en Génie Civil" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -394,7 +394,7 @@
                         android:layout_marginTop="75dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Administrateur de ventes" />
+                        android:text="Assistant chef projet" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -419,11 +419,10 @@
                         android:layout_marginTop="100dp"
                         android:textSize="15dp"
                         android:layout_gravity="left|center"
-                        android:text="Ingénieur technico commercial" />
+                        android:text="Responsable des équipements" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
 
         </LinearLayout>
 

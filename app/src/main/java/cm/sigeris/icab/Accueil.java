@@ -19,6 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Accueil extends AppCompatActivity {
+<<<<<<< HEAD
     private CardView genielogiciel,mava,logistique,iia,geniecivil,marketing,banque,comptabilite,agronomie;
     private TextView textView4;
     private LinearLayout etudiant,cardTexte;

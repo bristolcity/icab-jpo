@@ -1083,5 +1083,4 @@
             </androidx.cardview.widget.CardView>
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>
