@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".McvActivity">
+
+    <EditText
+        android:id="@+id/txt_mat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Entrer un Matricule"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Nom et Prenom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_fil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Entrer la Filière"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_niv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Entrer le Niveau"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_env"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Envoyer" />
+
+</LinearLayout>
