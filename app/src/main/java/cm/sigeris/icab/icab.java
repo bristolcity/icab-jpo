@@ -30,14 +30,14 @@ public class icab extends AppCompatActivity {
         @SuppressLint("ResourceType") Animation myanim = AnimationUtils.loadAnimation(this,R.anim.myanim);
 
         ObjectAnimator anima = ObjectAnimator.ofFloat(textView3, "rotation", 360);
-        anima.setDuration(2000);
+        anima.setDuration(1000);
         anima.start();
 
         ObjectAnimator anime = ObjectAnimator.ofFloat(textView6, "rotation", 360);
-        anime.setDuration(2000);
+        anime.setDuration(1000);
         anime.start();
         ObjectAnimator anim = ObjectAnimator.ofFloat(textView, "rotation", 360);
-        anim.setDuration(2000);
+        anim.setDuration(1000);
         anim.start();
         textView5.startAnimation(myanim);
         textView2.startAnimation(myanim);
