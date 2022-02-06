@@ -5,14 +5,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.widget.ImageView;
 
-public class Agronomie extends AppCompatActivity {
+public class CgeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_agronomie);
+        setContentView(R.layout.activity_cge);
+        ImageView myImage = (ImageView) findViewById(R.id.imageView6);
+        myImage.setAlpha(0.8f);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();

@@ -10,28 +10,21 @@ import android.view.View;
 import android.widget.Button;
 
 public class Accueil extends AppCompatActivity {
-    private Button ivan, stephane;
+    //private Button ivan;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
-        ivan = findViewById(R.id.ivan);
-        stephane = findViewById(R.id.stephane);
+        //ivan = findViewById(R.id.ivan);
 
-        stephane.setOnClickListener(new View.OnClickListener() {
+        /*ivan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Accueil.this,McvActivity.class);
                 startActivity(intent);
             }
-        });
-        ivan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               Intent intent = new Intent(Accueil.this,Agronomie.class);
-               startActivity(intent);
-            }
-        });
+        });*/
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
