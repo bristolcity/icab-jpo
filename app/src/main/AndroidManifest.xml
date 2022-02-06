@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/icab"
         android:supportsRtl="true"
         android:theme="@style/Theme.Icabjpo">
-        <activity android:name=".GcActivity"></activity>
+        <activity android:name=".GcActivity" android:label="Génie Civil" android:parentActivityName=".Accueil"></activity>
         <activity
             android:name=".GlActivity"
             android:label="Génie Logiciel"

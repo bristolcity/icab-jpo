@@ -172,7 +172,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/prescge" />
+                        app:srcCompat="@drawable/gestionclient" />
 
 
                 </LinearLayout>
@@ -292,7 +292,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/prescge" />
+                        app:srcCompat="@drawable/comptable" />
 
 
                 </LinearLayout>

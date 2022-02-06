@@ -107,7 +107,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="20dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/prescge" />
+                        app:srcCompat="@drawable/chefprojauto" />
 
 
                 </LinearLayout>
@@ -168,11 +168,11 @@
                     <ImageView
                         android:id="@+id/imageView7"
                         android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/prescge" />
+                        app:srcCompat="@drawable/recepatelier" />
 
 
                 </LinearLayout>
@@ -292,7 +292,7 @@
                         android:layout_gravity="right|top"
                         android:layout_marginRight="10dp"
                         android:layout_weight="0.1"
-                        app:srcCompat="@drawable/prescge" />
+                        app:srcCompat="@drawable/moteur2" />
 
 
                 </LinearLayout>
