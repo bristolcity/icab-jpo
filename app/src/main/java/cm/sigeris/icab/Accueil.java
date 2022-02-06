@@ -19,7 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Accueil extends AppCompatActivity {
-    private CardView genielogiciel,mava,logistique,iia,geniecivil,marketing,banque,comptabilite;
+    private CardView genielogiciel,mava,logistique,iia,geniecivil,marketing,banque,comptabilite,agronomie;
     private TextView textView4;
     private LinearLayout etudiant,cardTexte;
     int statut = 0;
@@ -43,22 +43,73 @@ public class Accueil extends AppCompatActivity {
         banque = findViewById(R.id.banque);
         comptabilite = findViewById(R.id.comptabilite);
 
-
-
-//        stephane.setOnClickListener(new View.OnClickListener() {
+            //start ligne a decommentes
+//
+//        genielogiciel.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Accueil.this,GlActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//        mava.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//               Intent intent = new Intent(Accueil.this,MavaActivity.class);
+//               startActivity(intent);
+//            }
+//        });
+//        logistique.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Accueil.this,Glt.class);
+//                startActivity(intent);
+//            }
+//        });
+//        iia.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Accueil.this,Iia.class);
+//                startActivity(intent);
+//            }
+//        });
+//        geniecivil.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Accueil.this,GcActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//        marketing.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
 //                Intent intent = new Intent(Accueil.this,McvActivity.class);
 //                startActivity(intent);
 //            }
 //        });
-//        ivan.setOnClickListener(new View.OnClickListener() {
+//        banque.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//               Intent intent = new Intent(Accueil.this,Agronomie.class);
-//               startActivity(intent);
+//                Intent intent = new Intent(Accueil.this,banque.class);
+//                startActivity(intent);
 //            }
 //        });
+//        banque.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Accueil.this,comptabilite.class);
+//                startActivity(intent);
+//            }
+//        });
+//        agronomie.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Accueil.this,agronomie.class);
+//                startActivity(intent);
+//            }
+//        });
+
+        //end ligne a decommentes
 
         new Thread(new Runnable() {
             @Override
@@ -69,47 +120,42 @@ public class Accueil extends AppCompatActivity {
                         @Override
                         public void run() {
                             if (statut>=0) {
-                                cardTexte.setBackgroundResource(R.drawable.bleupub);
                                 etudiant.setBackgroundResource(R.drawable.profil1);
                                 textView4.setText("");
                             }
                             if (statut>=5) {
-                                cardTexte.setBackgroundResource(R.drawable.photo);
                                 textView4.setText("Licence GL");
 
-                                Animation myanim = AnimationUtils.loadAnimation(Accueil.this,R.anim.myanim);
-                                myanim.setDuration(2000);
-                                textView4.startAnimation(myanim);
+                                ObjectAnimator moveAnim = ObjectAnimator.ofFloat(textView4,"X",70);
+                                moveAnim.setDuration(2000);
+                                moveAnim.setInterpolator(new BounceInterpolator());
+                                moveAnim.start();
                             }
                             if (statut>=40) {
-                                cardTexte.setBackgroundResource(R.drawable.bleupub);
                                 etudiant.setBackgroundResource(R.drawable.profil2);
                                 textView4.setText("");
 
                             }
                             if (statut>=45) {
-                                cardTexte.setBackgroundResource(R.drawable.photo);
                                 textView4.setText("Licence GLT");
-                                Animation myanim = AnimationUtils.loadAnimation(Accueil.this,R.anim.myanim);
-                                myanim.setDuration(2000);
-                                textView4.startAnimation(myanim);
+
+                                ObjectAnimator moveAnim = ObjectAnimator.ofFloat(textView4,"X",70);
+                                moveAnim.setDuration(2000);
+                                moveAnim.setInterpolator(new BounceInterpolator());
+                                moveAnim.start();
                             }
                             if (statut>=80) {
-                                cardTexte.setBackgroundResource(R.drawable.bleupub);
                                 etudiant.setBackgroundResource(R.drawable.profil3);
                                 textView4.setText("");
                             }
                             if (statut>=85) {
                                 cardTexte.setBackgroundResource(R.drawable.photo);
                                 textView4.setText("Licence IIA");
-                                Animation myanim = AnimationUtils.loadAnimation(Accueil.this,R.anim.myanim);
-                                myanim.setDuration(2000);
-                                textView4.startAnimation(myanim);
 
-//                                ObjectAnimator moveAnim = ObjectAnimator.ofFloat(textView4,"X",70);
-//                                moveAnim.setDuration(2000);
-//                                moveAnim.setInterpolator(new BounceInterpolator());
-//                                moveAnim.start();
+                                ObjectAnimator moveAnim = ObjectAnimator.ofFloat(textView4,"X",70);
+                                moveAnim.setDuration(2000);
+                                moveAnim.setInterpolator(new BounceInterpolator());
+                                moveAnim.start();
                             }
                             if (statut>=99) {
                                 statut = 0;

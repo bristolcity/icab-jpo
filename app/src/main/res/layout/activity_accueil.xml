@@ -114,6 +114,7 @@
                         android:textSize="12dp"
                         android:textStyle="bold|italic"
                         android:clickable="true"
+                        android:autoLink="all"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="www.icabaf.com" />
@@ -455,7 +456,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_below="@+id/card4"
-                android:id="@+id/card9"
+                android:id="@+id/agronomie"
                 app:cardMaxElevation="6dp"
                 app:cardElevation="4dp"
                 android:clickable="true"
@@ -493,12 +494,43 @@
                                 android:layout_width="match_parent"
                                 android:textAlignment="center"
                                 android:layout_height="wrap_content"
-                                android:text="Informatique de gestion" />
+                                android:text="Agronomie" />
+                            <LinearLayout
+                                android:id="@+id/linebdicn"
+                                android:layout_width="251dp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/textViewog"
+                                android:orientation="horizontal"
+                                android:paddingLeft="8dp"
+                                android:layout_marginTop="2dp"
+                                android:paddingRight="8dp"
+                                android:weightSum="1">
+
+                                <ImageView
+                                    android:id="@+id/imaewcc3cxv"
+                                    android:layout_width="100dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="7dp"
+                                    android:layout_weight="0.5"
+                                    app:srcCompat="@drawable/tiretblanc_24dp" />
+
+                                <TextView
+                                    android:id="@+id/tedxtcsa"
+                                    android:layout_width="match_parent"
+                                    android:textColor="#FFFFFF"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="7dp"
+                                    android:layout_weight="0.5"
+                                    android:text="Plantations"
+                                    android:textAlignment="center"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
                             <LinearLayout
                                 android:id="@+id/linebdic"
                                 android:layout_width="251dp"
                                 android:layout_height="wrap_content"
-                                android:layout_below="@+id/textViewog"
+                                android:layout_below="@+id/linebdicn"
                                 android:orientation="horizontal"
                                 android:paddingLeft="8dp"
                                 android:layout_marginTop="2dp"
@@ -520,12 +552,11 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="7dp"
                                     android:layout_weight="0.5"
-                                    android:text="Ingenierie"
+                                    android:text="Elevages"
                                     android:textAlignment="center"
                                     android:textSize="14dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
-
                             <TextView
                                 android:id="@+id/textViewf5"
                                 android:layout_marginTop="7dp"
@@ -542,7 +573,7 @@
                     </RelativeLayout>
                     <RelativeLayout
                         android:layout_width="219dp"
-                        android:background="@drawable/infogest"
+                        android:background="@drawable/bannane"
                         android:layout_height="match_parent"
                         android:layout_weight="0.5"
                         android:orientation="horizontal">
