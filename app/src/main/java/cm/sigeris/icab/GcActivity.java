@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -20,8 +21,6 @@ public class GcActivity extends AppCompatActivity {
         myImage.setAlpha(0.8f);
 
     }
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -29,5 +28,23 @@ public class GcActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_about:
+                Intent i = new Intent(this, Apropos.class);
+                startActivity(i);
+                return  true;
+            case R.id.menu_icab:
+                Intent j = new Intent(this,icab.class);
+                startActivity(j);
+                return  true;
+            case R.id.menu_devs:
+                Intent intent = new Intent(this,concepteurs.class);
+                startActivity(intent);
+                return  true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 }

@@ -1,3 +1,4 @@
+
 package cm.sigeris.icab;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,18 +8,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.ImageView;
 
-public class McvActivity extends AppCompatActivity {
+public class Agronomie extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
-        ImageView myImage = (ImageView) findViewById(R.id.imageView6);
-        myImage.setAlpha(0.8f);
-
-
+        setContentView(R.layout.activity_agronomie);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -26,7 +22,6 @@ public class McvActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

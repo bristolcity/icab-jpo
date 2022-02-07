@@ -100,24 +100,37 @@
                         android:id="@+id/textView2"
                         android:layout_below="@+id/textView"
                         android:layout_width="match_parent"
-                        android:textSize="12dp"
+                        android:textSize="10dp"
                         android:textStyle="bold"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Vous offre une formation intellectuelle sur differents domaines" />
+                        android:text="Veut offrir au terme de son cursus de formation une jeunesse aguerrie et préparée pour l’univers de l’emploi." />
                     <TextView
                         android:layout_marginTop="5dp"
-                        android:id="@+id/textView2n"
+                        android:id="@+id/liens"
                         android:layout_below="@+id/textView2"
                         android:textColor="#0D74C6"
                         android:layout_width="match_parent"
-                        android:textSize="12dp"
+                        android:textSize="10dp"
                         android:textStyle="bold|italic"
                         android:clickable="true"
                         android:autoLink="all"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="www.icabaf.com" />
+                        android:text="www.icabaf.cm" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tel"
+                        android:layout_below="@+id/liens"
+                        android:textColor="#0D74C6"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp"
+                        android:textStyle="bold|italic"
+                        android:clickable="true"
+                        android:autoLink="all"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="(+237) 242 00 03 50 / 699 00 31 39" />
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -135,7 +148,6 @@
             </LinearLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
-<<<<<<< HEAD
                 android:layout_height="match_parent"
                 android:layout_weight="0.5"
                 android:orientation="horizontal">
@@ -262,7 +274,8 @@
                             android:layout_marginRight="11dp"
                             android:layout_width="match_parent"
                             android:textColor="#F13C3C"
-                            android:textSize="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
                             android:layout_height="wrap_content"
                             android:text="Consulter >" />
 
@@ -349,7 +362,8 @@
                                 android:layout_marginLeft="11dp"
                                 android:layout_width="match_parent"
                                 android:textColor="#F13C3C"
-                                android:textSize="10dp"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
                                 android:layout_height="wrap_content"
                                 android:text="Consulter >" />
                         </RelativeLayout>
@@ -447,7 +461,8 @@
                             android:layout_marginRight="11dp"
                             android:layout_width="match_parent"
                             android:textColor="#F13C3C"
-                            android:textSize="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
                             android:layout_height="wrap_content"
                             android:text="Consulter >" />
 
@@ -565,7 +580,8 @@
                                 android:layout_marginLeft="11dp"
                                 android:layout_width="match_parent"
                                 android:textColor="#F13C3C"
-                                android:textSize="10dp"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
                                 android:layout_height="wrap_content"
                                 android:text="Consulter >" />
                         </RelativeLayout>
@@ -667,7 +683,8 @@
                             android:layout_marginRight="11dp"
                             android:layout_width="match_parent"
                             android:textColor="#F13C3C"
-                            android:textSize="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
                             android:layout_height="wrap_content"
                             android:text="Consulter >" />
 
@@ -786,7 +803,8 @@
                                 android:layout_marginLeft="11dp"
                                 android:layout_width="match_parent"
                                 android:textColor="#F13C3C"
-                                android:textSize="10dp"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
                                 android:layout_height="wrap_content"
                                 android:text="Consulter >" />
                         </RelativeLayout>
@@ -886,7 +904,8 @@
                             android:layout_marginRight="11dp"
                             android:layout_width="match_parent"
                             android:textColor="#F13C3C"
-                            android:textSize="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
                             android:layout_height="wrap_content"
                             android:text="Consulter >" />
 
@@ -975,7 +994,8 @@
                                 android:layout_marginLeft="11dp"
                                 android:layout_width="match_parent"
                                 android:textColor="#F13C3C"
-                                android:textSize="10dp"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
                                 android:layout_height="wrap_content"
                                 android:text="Consulter >" />
                         </RelativeLayout>
@@ -1052,7 +1072,8 @@
                                 android:layout_height="20dp"
                                 android:layout_marginTop="7dp"
                                 android:layout_weight="0.5"
-                                app:srcCompat="@drawable/tiretblanc_24dp" />
+                                app:srcCompat="@drawable/tiretblanc_24dp"
+                                tools:ignore="VectorDrawableCompat" />
 
                             <TextView
                                 android:id="@+id/textf"
@@ -1075,7 +1096,8 @@
                             android:layout_marginRight="11dp"
                             android:layout_width="match_parent"
                             android:textColor="#F13C3C"
-                            android:textSize="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
                             android:layout_height="wrap_content"
                             android:text="Consulter >" />
 
@@ -1084,12 +1106,5 @@
             </androidx.cardview.widget.CardView>
         </LinearLayout>
     </ScrollView>
-=======
-                android:layout_height="30dp"
-                app:srcCompat="@drawable/etoile" />
-        </RelativeLayout>
-    </LinearLayout>
 
-
->>>>>>> 1704d8dbc74ea56dcf9608f836cda46b9c074a35
 </RelativeLayout>

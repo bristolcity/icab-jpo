@@ -4,9 +4,9 @@
         android:id="@+id/menu_about"
         android:title="Apropos"/>
     <item
-        android:id="@+id/menu_edit_collectrice"
+        android:id="@+id/menu_icab"
         android:title="Apropos D'ICAB"/>
     <item
-        android:id="@+id/menu_edit_collectrice_pass"
+        android:id="@+id/menu_devs"
         android:title="Nous Joindre"/>
 </menu>

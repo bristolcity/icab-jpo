@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.BounceInterpolator;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -25,7 +26,7 @@ public class Accueil extends AppCompatActivity {
     int statut = 0;
     private static int splashTimeOut = 6000;
     Handler handler = new Handler();
-    private Button agro,banque,IIA,GLT;
+    private Button agro, banque_, IIA, GLT;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +43,7 @@ public class Accueil extends AppCompatActivity {
         marketing = findViewById(R.id.marketing);
         banque = findViewById(R.id.banque);
         comptabilite = findViewById(R.id.comptabilite);
+        agronomie = findViewById(R.id.agronomie);
 
         genielogiciel.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,14 +62,14 @@ public class Accueil extends AppCompatActivity {
         logistique.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Accueil.this,Glt.class);
+                Intent intent = new Intent(Accueil.this,GLT.class);
                 startActivity(intent);
             }
         });
         iia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Accueil.this,Iia.class);
+                Intent intent = new Intent(Accueil.this,IIA.class);
                 startActivity(intent);
             }
         });
@@ -88,25 +90,24 @@ public class Accueil extends AppCompatActivity {
         banque.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Accueil.this,banque.class);
+                Intent intent = new Intent(Accueil.this,Banque.class);
                 startActivity(intent);
             }
         });
-        banque.setOnClickListener(new View.OnClickListener() {
+        comptabilite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Accueil.this,comptabilite.class);
+                Intent intent = new Intent(Accueil.this,CgeActivity.class);
                 startActivity(intent);
             }
         });
         agronomie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Accueil.this,agronomie.class);
+                Intent intent = new Intent(Accueil.this,Agronomie.class);
                 startActivity(intent);
             }
         });
-
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -164,38 +165,40 @@ public class Accueil extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 }
-        agro = findViewById(R.id.agro);
-        banque= findViewById(R.id.banque);
-        GLT= findViewById(R.id.GLT);
-        IIA= findViewById(R.id.IIA);
-        agro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               Intent intent = new Intent(Accueil.this,Agronomie.class);
-               startActivity(intent);
+                agro = findViewById(R.id.agronomie);
+                banque= findViewById(R.id.banque);
+                GLT= findViewById(R.id.logistique);
+                IIA= findViewById(R.id.iia);
+                agro.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(Accueil.this,Agronomie.class);
+                        startActivity(intent);
+                    }
+                });
+                banque.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent= new Intent(Accueil.this,Banque.class);
+                        startActivity(intent);
+                    }
+                });
+                GLT.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent= new Intent(Accueil.this,GLT.class);
+                        startActivity(intent);
+                    }
+                });
+                IIA.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent= new Intent(Accueil.this,IIA.class);
+                        startActivity(intent);
+                    }
+                });
             }
         });
-        banque.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(Accueil.this,Banque.class);
-                startActivity(intent);
-            }
-        });
-        GLT.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(Accueil.this,GLT.class);
-                startActivity(intent);
-            }
-        });
-        IIA.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(Accueil.this,IIA.class);
-                startActivity(intent);
-            }
-        }).start();
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -205,24 +208,21 @@ public class Accueil extends AppCompatActivity {
     }
 
     @Override
-    public boolean onContextItemSelected(@NonNull MenuItem item)
     public boolean onOptionsItemSelected(MenuItem item) {
-        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo)item.getMenuInfo();
         switch (item.getItemId()) {
             case R.id.menu_about:
-                Intent i = new Intent(Accueil.this, Accueil.class);
+                Intent i = new Intent(this, Apropos.class);
                 startActivity(i);
                 return  true;
-            case R.id.menu_edit_collectrice:
-                Intent j = new Intent(Accueil.this,Accueil.class);
+            case R.id.menu_icab:
+                Intent j = new Intent(this,icab.class);
                 startActivity(j);
                 return  true;
-            case R.id.menu_edit_collectrice_pass:
-                Intent intent = new Intent(Accueil.this,Accueil.class);
+            case R.id.menu_devs:
+                Intent intent = new Intent(this,concepteurs.class);
                 startActivity(intent);
                 return  true;
             default:
-                return super.onContextItemSelected(item);
                 return super.onOptionsItemSelected(item);
         }
     }
