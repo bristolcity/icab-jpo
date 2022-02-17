@@ -90,21 +90,21 @@ public class Accueil extends AppCompatActivity {
 //        banque.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent intent = new Intent(Accueil.this,banque.class);
+//                Intent intent = new Intent(Accueil.this,Banque.class);
 //                startActivity(intent);
 //            }
 //        });
 //        banque.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent intent = new Intent(Accueil.this,comptabilite.class);
+//                Intent intent = new Intent(Accueil.this,Comptabilite.class);
 //                startActivity(intent);
 //            }
 //        });
 //        agronomie.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent intent = new Intent(Accueil.this,agronomie.class);
+//                Intent intent = new Intent(Accueil.this,Agronomie.class);
 //                startActivity(intent);
 //            }
 //        });
